@@ -137,8 +137,9 @@ public class CurrencyExchange {
 
     }
 
+    //put accessKey in "APIKey" file
     static String accessKey() throws IOException {
-        File file = new File(".gitignore");
+        File file = new File("APIKey");
 
         Scanner scanner = new Scanner(file);
 
